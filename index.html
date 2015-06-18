@@ -4,10 +4,45 @@
   <meta charset="UTF-8">
   <title>jrodrigomg</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/carousel.css">
 </head>
 <body>
-  <button class="btn btn-primary">Hola</button>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active" id="first-slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Primero</h1>
+            <p>Primer slide para mostrar en la pagina prueba.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item" id="second-slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Segundo</h1>
+            <p>Este es el segundo slide para mostrar en la pagina de prueba.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- /.carousel -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
