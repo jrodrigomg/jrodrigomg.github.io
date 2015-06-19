@@ -5,3 +5,40 @@
 #second-slide{
   background-color: #09ddab !important;
 }
+
+
+.heading{
+    width:30%;
+    padding-top: 9%;
+    padding-bottom:9%;
+    border-radius: 100%;
+    vertical-align: middle;
+    color:white;
+    margin:1%;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+.heading:hover{
+    background-color: gray !important;
+}
+
+.heading div{
+    margin: 0;
+    padding:0;
+    position:relative;
+}
+
+#heading1{
+    background-color: crimson;
+}
+
+#heading2{
+    background-color: darkviolet;
+}
+
+#heading3{
+    background-color: aqua;
+}
