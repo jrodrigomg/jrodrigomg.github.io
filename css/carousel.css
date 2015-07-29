@@ -2,22 +2,21 @@
 
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
+
 }
 .carousel-caption {
   left:20%;
-  top:25%;
+  top:20%;
   height: 20%;
+  text-shadow:none!important;
 }
 
 .carousel-caption > h1{
-  font-weight: 100;
-  font-size: 5em;
+  font-size: 8em;
 }
 
 .carousel-caption > p{
-  font-weight: 100;
-  font-size: 1.4em;
+  font-size: 3em;
 }
 /* Declare heights because of positioning of img element */
 .carousel .item {
@@ -30,6 +29,11 @@
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
+.marketing{
+  width: 100%;
+  background-color: #fff;
+  height:100%;
+}
 .marketing .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
@@ -58,6 +62,31 @@
 }
 
 
+/*ESTETICA MIA*/
+
+.carousel-control.right{
+  background-image: none;
+}
+
+.carousel-control.left{
+  background-image: none;
+}
+
+.glyphicon{
+  font-size: 6em !important;
+  margin-top: -40% !important;
+  margin-left: -50% !important;
+  color:#D9D9D9;
+  font-weight: 100;
+  -webkit-transition:0.5s;
+  -moz-transition:0.5s;
+  -o-transition:0.5s;
+  transition:0.5s;
+}
+
+.glyphicon:hover{
+  color:#F66565;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 

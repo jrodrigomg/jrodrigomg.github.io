@@ -1,9 +1,22 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/advent-pro/AdventPro-Light.ttf);
+}
+
+body{
+    font-family: "myFirstFont";
+    height: 100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+
 #first-slide{
-  background-color: #2c86fe !important;
+  background-color: #20DE5B !important;
 }
 
 #second-slide{
-  background-color: #09ddab !important;
+  background-color: white !important;
 }
 
 
@@ -23,8 +36,16 @@
     cursor:pointer;
 }
 
-.heading:hover{
-    background-color: gray !important;
+#caption1{
+    color:white;
+}
+
+#caption2{
+    color:#20DE5B;
+}
+
+.heading{
+    background-color: #FFFFFF;
 }
 
 .heading div{
@@ -34,13 +55,35 @@
 }
 
 #heading1{
-    background-color: crimson;
+    border: crimson solid 4px;
+    color:crimson;
 }
 
 #heading2{
-    background-color: darkviolet;
+    border:darkviolet solid 4px;
+    color:darkviolet;
 }
 
 #heading3{
-    background-color: aqua;
+    border:#1C7AD5 solid 4px;
+    color:#1C7AD5;
+}
+
+
+#heading1:hover{
+    border: crimson solid 4px;
+    background-color:crimson;
+    color:white;
+}
+
+#heading2:hover{
+    border:darkviolet solid 4px;
+    background-color:darkviolet;
+    color:white;
+}
+
+#heading3:hover{
+    border:#1C7AD5 solid 4px;
+    background-color:#1C7AD5;
+    color:white;
 }
