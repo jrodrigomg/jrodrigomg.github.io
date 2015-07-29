@@ -3,20 +3,24 @@
     src: url(../fonts/advent-pro/AdventPro-Light.ttf);
 }
 
-body{
+html,body{
     font-family: "myFirstFont";
-    height: 100%;
-    width:100%;
     margin: 0;
     padding: 0;
+    height: 100%;
+    width:100%;
+   
 }
+
 
 #first-slide{
   background-color: #20DE5B !important;
+  height: 100%;
 }
 
 #second-slide{
   background-color: white !important;
+  height: 100%;
 }
 
 
@@ -34,6 +38,10 @@ body{
     -o-transition: all 0.7s ease-in-out;
     transition: all 0.7s ease-in-out;
     cursor:pointer;
+}
+
+.heading > h2{
+    font-size: 6em;
 }
 
 #caption1{

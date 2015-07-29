@@ -1,8 +1,11 @@
 
 
 .carousel {
-  height: 500px;
+  height:100%;
+}
 
+.carousel-inner{
+  height: 100%;
 }
 .carousel-caption {
   left:20%;
