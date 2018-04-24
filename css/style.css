@@ -1,106 +1,53 @@
-@font-face {
-    font-family: myFirstFont;
-    src: url(../fonts/advent-pro/AdventPro-Light.ttf);
+.backimage{
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  top:0;
+
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
 }
 
-html,body{
-    font-family: "myFirstFont";
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width:100%;
-   
-}
+.blur{
+  position: absolute;
+  padding:0;
+  margin:0;
+  min-width: 100%;
+  min-height: 50%;
+  top:25%;
+  left:0;
+  z-index: 10;
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+  overflow: hidden;
+  background: rgba(0,0,0,.6);
+  backdrop-filter: grayscale(1) contrast(3) blur(1px);
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
 
-
-#first-slide{
-  background-color: #20DE5B !important;
-  height: 100%;
-}
-
-#second-slide{
-  background-color: white !important;
-  height: 100%;
-}
-
-
-.circles{
-    height:100%;
-    padding: 0;
-    margin: 0;
-}
-
-.heading{
-    width: 30%;
-    min-height:  300px;
-    min-width: 300px;
-    padding-top: 9%;
-    padding-bottom:9%;
-    border-radius: 100%;
-    vertical-align: middle;
-    color:white;
-    margin:1%;
-    margin-top: 10%;
-    cursor: pointer;
-    -webkit-transition: all 0.7s ease-in-out;
-    -moz-transition: all 0.7s ease-in-out;
-    -o-transition: all 0.7s ease-in-out;
-    transition: all 0.7s ease-in-out;
-    cursor:pointer;
-}
-
-.heading > h2{
-    font-size: 6em;
-}
-
-#caption1{
-    color:white;
-}
-
-#caption2{
-    color:#20DE5B;
-}
-
-.heading{
-    background-color: #FFFFFF;
-}
-
-.heading div{
-    margin: 0;
-    padding:0;
-    position:relative;
-}
-
-#heading1{
-    border: crimson solid 4px;
-    color:crimson;
-}
-
-#heading2{
-    border:darkviolet solid 4px;
-    color:darkviolet;
-}
-
-#heading3{
-    border:#1C7AD5 solid 4px;
-    color:#1C7AD5;
 }
 
 
-#heading1:hover{
-    border: crimson solid 4px;
-    background-color:crimson;
-    color:white;
-}
-
-#heading2:hover{
-    border:darkviolet solid 4px;
-    background-color:darkviolet;
-    color:white;
-}
-
-#heading3:hover{
-    border:#1C7AD5 solid 4px;
-    background-color:#1C7AD5;
-    color:white;
+.contenido{
+  position: fixed;
+  padding:0;
+  margin:0;
+  min-width: 100%;
+  min-height: 50%;
+  top:25%;
+  left:0;
+  z-index: 200;
+  border-top: 2px solid rgba(255, 255, 255, .5);
+  border-bottom: 2px solid rgba(255, 255, 255, .5);
 }
