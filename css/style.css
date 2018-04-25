@@ -65,5 +65,15 @@ body{
 .bienvenido{
   text-align: center;
   font-family: 'MyWebFont', Fallback, sans-serif;
-  font-size: 4em;
+  font-size: 2em;
+}
+
+
+.welcome-title{
+  position: relative;
+  font-size:2em;
+  color:white;
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
 }
