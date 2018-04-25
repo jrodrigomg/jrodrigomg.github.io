@@ -15,7 +15,5 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "pagePiling.js": "pagepiling.js#^1.5.5"
-  }
+  "dependencies": {}
 }
