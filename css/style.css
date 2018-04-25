@@ -64,16 +64,22 @@ body{
 
 .bienvenido{
   text-align: center;
-  font-family: 'MyWebFont', Fallback, sans-serif;
-  font-size: 2em;
 }
 
-
-.welcome-title{
+.first-text{
   position: relative;
-  font-size:2em;
+  font-size:1.5em;
   color:white;
   -webkit-transform: translateY(50%);
   -ms-transform: translateY(50%);
   transform: translateY(50%);
+}
+
+.welcome-title{
+  font-family: 'MyWebFont', Fallback, sans-serif;
+  font-size: 4em;
+}
+
+.welcome-text{
+  margin-top:60px;
 }
