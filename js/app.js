@@ -1,11 +1,38 @@
 $(document).ready(function() {
+
+	//Fullpage
 	$('#fullpage').fullpage({
 		autoScrolling:true,
 		touchSensitivity: 15,
 		dragAndMove:true,
 		normalScrollElementTouchThreshold: 5,
+		controlArrows:false,
 	});
+
+
+	//Blotter
+	inicializarBlotter();
 });
+
+
+
+function inicializarBlotter(){
+	var text = new Blotter.Text("Acerca", {
+		family : "serif",
+		size : 90,
+		fill : "#171717"
+	});
+
+	var material = new Blotter.ChannelSplitMaterial();
+
+	var blotter = new Blotter(material, { texts : text });
+
+	var scope = blotter.forText(text);
+
+		scope.appendTo(document.getElementById("blotterTitleSectionTwo"));
+}
+
+
 
 
 // $(document).ready(function() {
