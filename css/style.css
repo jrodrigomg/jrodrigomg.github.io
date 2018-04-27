@@ -101,7 +101,7 @@ body{
   top: 10%;
 }
 
-@media only screen and (max-width:800px) and (min-width: 800px)  {
+@media only screen and (max-width:1200px)  {
   #blotterTitleSectionTwo{
     display: none;
   }
@@ -116,7 +116,7 @@ body{
   }
 }
 
-@media only screen and (min-width:800px) and (min-width: 800px)  {
+@media only screen and (min-width:1200px)  {
   #blotterTitleSectionTwo{
     display: block;
   }
