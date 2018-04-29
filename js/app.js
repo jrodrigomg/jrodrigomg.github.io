@@ -2,20 +2,36 @@
 
 
 $(document).ready(function() {
-		loading_screen.finish();
+		$.preload([
+				'img/back1.jpg',
+				'img/back2.jpg',
+				'img/back3.jpg',
+				'lib/blotter.min.js',
+				'lib/channelSplitMaterial.js',
+				'fonts/&Dumpling.ttf',
+				'fonts/JosefinSans-Regular.ttf'
+		]).then(function() {
+			console.debug("All done.")
+			//Close loading page
+			loading_screen.finish();
 
-		//Fullpage
-		$('#fullpage').fullpage({
-			autoScrolling:true,
-			touchSensitivity: 15,
-			dragAndMove:true,
-			normalScrollElementTouchThreshold: 5,
-			controlArrows:false,
+			//Fullpage
+			$('#fullpage').fullpage({
+				autoScrolling:true,
+				touchSensitivity: 15,
+				dragAndMove:true,
+				normalScrollElementTouchThreshold: 5,
+				controlArrows:false,
+			});
+
+
+			//Blotter
+			inicializarBlotter();
+
+		}, function() {
+			console.error("Something went wrong.")
 		});
 
-
-		//Blotter
-		inicializarBlotter();
 });
 
 
