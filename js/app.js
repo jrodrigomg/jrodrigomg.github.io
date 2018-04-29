@@ -1,17 +1,21 @@
+
+
+
 $(document).ready(function() {
+		loading_screen.finish();
 
-	//Fullpage
-	$('#fullpage').fullpage({
-		autoScrolling:true,
-		touchSensitivity: 15,
-		dragAndMove:true,
-		normalScrollElementTouchThreshold: 5,
-		controlArrows:false,
-	});
+		//Fullpage
+		$('#fullpage').fullpage({
+			autoScrolling:true,
+			touchSensitivity: 15,
+			dragAndMove:true,
+			normalScrollElementTouchThreshold: 5,
+			controlArrows:false,
+		});
 
 
-	//Blotter
-	inicializarBlotter();
+		//Blotter
+		inicializarBlotter();
 });
 
 
