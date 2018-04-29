@@ -11,7 +11,7 @@ $(document).ready(function() {
 				'fonts/&Dumpling.ttf',
 				'fonts/JosefinSans-Regular.ttf'
 		]).then(function() {
-			console.debug("All done.")
+			console.log("All done.")
 			//Close loading page
 			loading_screen.finish();
 
