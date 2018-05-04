@@ -101,6 +101,11 @@ body{
   top: 10%;
 }
 
+.title-section-3{
+  top: 10%;
+  left:5%;
+}
+
 @media only screen and (max-width:1200px)  {
   #blotterTitleSectionTwo{
     display: none;
