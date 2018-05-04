@@ -4,7 +4,7 @@
 $(document).ready(function() {
 		$.preload([
 				'img/back1.jpg',
-				'img/back2.jpg',
+				// 'img/back2.jpg',
 				'img/back3.jpg',
 				'lib/blotter.min.js',
 				'lib/channelSplitMaterial.js',
