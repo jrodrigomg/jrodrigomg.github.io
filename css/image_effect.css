@@ -1,0 +1,82 @@
+
+.divImg {
+    position: relative;
+    overflow: hidden;
+  }
+  .divImg .caption {
+      height:100%;
+      width: 100%;
+          cursor: pointer;
+          position: absolute;
+      top:0;
+      transform: scaleY(0);
+      transform-origin: top;
+      transition: transform 0.35s ease;
+  }
+  .effect1:hover .caption {
+    transform: scaleY(1);
+  }
+  .caption-text h1{
+          text-transform: uppercase;
+          font-size: 24px;
+  }
+  .caption-text{
+    z-index: 5;
+    color: #fff;
+      position: absolute;
+      width: 100%;
+      top: 50%;   
+      transform: translateY(-50%); 
+      text-align: center;
+  }
+  .blur {
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+      position: absolute;
+      top:0;
+  }
+  .square {
+      height: 100%;
+      width: 100%;  
+      outline: 2px solid white;
+      outline-offset: -10px;
+  }
+  .square + .caption-text h1 {
+    font-size: 30px;
+  }
+  .effect2 .blur {
+    background-color: rgba(28, 6, 150, 0.5);
+  }
+  .effect2:hover .caption{
+    transform: scaleY(1);
+  }
+  .effect3:hover img {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+  }
+  .effect3:hover .caption{
+    transform: scaleY(1);
+  }
+  .effect4 .caption{
+    transition: opacity 0.35s ease-in-out;
+    -moz-transition: opacity .35s ease-in-out;
+    -webkit-transition: opacity .35s ease-in-out;
+  }
+  .effect4 .caption {
+      top: 50%;   
+      transform: translateY(-50%);
+      opacity: 0;
+      -webkit-backface-visibility: hidden;
+  }
+  .effect4:hover img {
+    opacity: 0.92;
+  }
+  .effect4:hover .caption{
+      opacity: 1;
+  }
+  
+
