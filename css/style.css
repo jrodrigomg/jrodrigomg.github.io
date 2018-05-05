@@ -122,6 +122,10 @@ body{
   .divImg{
     display:none;
   }
+
+  .moreifo{
+    display: block;
+  }
 }
 
 @media only screen and (min-width:1200px)  {
@@ -139,6 +143,9 @@ body{
   }
   .divImg{
     display: block;
+  }
+  .moreinfo{
+    display: none;
   }
 }
 
