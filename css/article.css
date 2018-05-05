@@ -1,0 +1,132 @@
+
+
+@media only screen and (max-width:1200px)  {
+
+    a{
+        text-decoration: underline;
+        color:inherit;
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+    li{
+        list-style: none;
+    }
+
+    .about-long{
+        font-size:0.9em;
+    }
+
+}
+
+@media only screen and (min-width:800px)  {
+
+    .give-40{
+        margin-left:20%;
+    }
+
+}
+  
+
+@media only screen and (min-width:1200px)  {
+
+    .give-40{
+        margin-left:40%;
+    }
+    .about-long{
+        font-size:1.5em;
+    }
+
+    .o-title--primary {
+        font-weight: 400;
+        text-align: center;
+        text-transform: capitalize;
+        color: #bbb;
+    }
+
+
+    a {
+    text-decoration: underline;
+    text-decoration-color: inherit;
+    text-decoration-skip: ink;
+    }
+    
+  .o-btn {
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  .o-btn--primary {
+    background-color: #00ada7;
+    color: #fff;
+  }
+  
+  .c-nav-wrapper {
+    position: relative;
+    left: 0;
+    padding: 10px 30px;
+    position: relative;
+  }
+  
+  .c-nav {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .c-nav-item {
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+  
+  .c-nav-item:not(:last-of-type) {
+    margin-bottom: 30px;
+  }
+  
+  .c-nav-link {
+    position: relative;
+    text-decoration: none;
+    color: #444;
+  }
+  
+  .c-nav-link::before {
+    content: "";
+    position: absolute;
+    left: -2%;
+    bottom: -.23em;
+    width: 0;
+    height: 20px;
+    transition: width 300ms ease-in-out;
+    /* http://lea.verou.me/css3patterns/ */
+    background: radial-gradient(#f2f2f2 15%, transparent 16%) 0 0, radial-gradient(#f2f2f2 15%, transparent 16%) 4px 4px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 4px 5px;
+    background-color: #a0e0a9;
+    background-size: 8px 8px;
+    transform: rotate(-1deg);
+    transform-origin: left center;
+  }
+  
+  .c-nav-link::after {
+    content: attr(data-more-info);
+    position: relative;
+    top: -0.2em;
+    width: 100%;
+    display: block;
+    font-size: 0.6em;
+    opacity: 0;
+    text-transform: none;
+    transition: 0s opacity;
+    transition-delay: 350ms;
+    transform: rotate(-1deg);
+  }
+  
+  .c-nav-link:hover::before {
+    width: calc(100% + 2rem);
+  }
+  
+  .c-nav-link:hover::after {
+    opacity: 1;
+  }
+  
+
+}

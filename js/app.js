@@ -37,7 +37,7 @@ $(document).ready(function() {
 
 
 function inicializarBlotter(){
-	var text = new Blotter.Text("Acerca de mi:", {
+	var text = new Blotter.Text("ACERCA DE MI:", {
 		family : "MyWebFont",
 		size : 100,
 		fill : "#171717"
@@ -73,7 +73,7 @@ function inicializarBlotter(){
 			if(cursor_x > element_x)
 				rotation = 180*porcent_x;
 
-			var offset = 0.800*porcent_y;
+			var offset = 0.700*porcent_y;
 
 
 			// var diff = Math.floor(Math.sqrt(Math.pow(cursor_x - (elem.offset().left+(elem.width()/2)), 2) + Math.pow(cursor_y - (elem.offset().top+(elem.height()/2)), 2)));
