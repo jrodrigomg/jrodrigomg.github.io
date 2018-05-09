@@ -1,0 +1,49 @@
+.iconos{
+    position:absolute;
+    bottom:10%;
+    left: 4%;
+    text-align: center;
+    color: white;
+    width: 12.5%;
+    height:20%;
+}
+
+.icono{
+    color: white;
+    width: 22%;
+    font-size: 2em;
+    cursor: pointer;
+    padding-right: 20px;
+    -webkit-transition: 0.4s; /* Safari */
+    -moz-transition: 0.4s; 
+    transition:  0.4s;
+}
+
+
+
+
+@media only screen and (max-width:1200px){
+    .icono{
+        font-size: 1.3em;
+        width: 10%;
+    }
+}
+
+
+.fa-github:hover{
+    color:rgb(187, 182, 182);
+}
+
+
+.fa-keybase:hover{
+    color:rgb(228, 137, 2);
+}
+
+
+.fa-twitter:hover{
+    color:rgb(39, 147, 236);
+}
+
+.fa-telegram:hover{
+    color:rgb(77, 204, 255);
+}

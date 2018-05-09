@@ -9,7 +9,8 @@ $(document).ready(function() {
 				'lib/blotter.min.js',
 				'lib/channelSplitMaterial.js',
 				'fonts/&Dumpling.ttf',
-				'fonts/JosefinSans-Regular.ttf'
+				'fonts/JosefinSans-Regular.ttf',
+				'https://use.fontawesome.com/releases/v5.0.12/css/all.css'
 		]).then(function() {
 			console.log("All done.")
 			//Close loading page
