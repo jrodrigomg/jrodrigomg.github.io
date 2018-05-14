@@ -28,6 +28,10 @@ $(document).ready(function() {
 
 			//Blotter
 			inicializarBlotter();
+			
+
+			//Para que reciba notificacion de la visita.
+			$.get( "https://immense-lake-33404.herokuapp.com/newvisit", function(data) {});
 
 		}, function() {
 			console.error("Something went wrong.")
