@@ -1,6 +1,11 @@
 
-
-
+function simulateKeyPress(key){
+	console.log(key);
+    //Set key to corresponding code. This one is set to the left arrow key.
+	var e = $.Event('keydown', { keyCode: key });// right arrow key
+	e.which = 39; // it is up
+    $(document).trigger(e);
+} 
 $(document).ready(function() {
 		$.preload([
 				'img/back1.jpg',
