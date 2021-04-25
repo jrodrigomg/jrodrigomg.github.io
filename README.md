@@ -1,1 +1,0 @@
-# jrodrigomg.github.io
